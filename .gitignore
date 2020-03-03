@@ -1,0 +1,63 @@
+# Python bytecode:
+*.py[co]
+
+# Packaging files:
+*.egg*
+
+# Sphinx docs:
+/build
+
+# Logs:
+*.log
+
+# Eclipse
+.project
+.pydevproject
+.settings
+
+# Linux Editors
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+*.swp
+*.swo
+
+# Mac
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VirtualEnv
+env/
+
+# PyCharm
+.idea
+
+# Cache
+__pycache__/
+*.sass-cache*
+
+# Coverage
+cover/
+.coverage
+
+# SQlite DB
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Caches
+/cache/
+/search_index/
+.mypy_cache
+.pytest_cache
+.testmondata
